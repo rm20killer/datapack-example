@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Welcome to 8bit"
+        },
+        "description": {
+            "text": "join the server"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "spawn": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": x coords, 
+                        "max": x coords
+                    },
+                    "y": {
+                        "min": y coords,
+                        "max": y coords
+                    },
+                    "z": {
+                        "min": z coords,
+                        "max": z coords
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "spawn"
+        ]
+    ]
+}

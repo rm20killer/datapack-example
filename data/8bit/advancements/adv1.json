@@ -1,0 +1,44 @@
+{
+    "display": {
+        "title": {
+            "text": "You got mail"
+        },
+        "description": {
+            "text": "Vist the post office"
+        },
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "post office": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "position": {
+                    "x": {
+                        "min": x coords, 
+                        "max": x coords
+                    },
+                    "y": {
+                        "min": y coords,
+                        "max": y coords
+                    },
+                    "z": {
+                        "min": z coords,
+                        "max": z coords
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "post office"
+        ]
+    ],
+    "parent": "8bit:root"
+}
